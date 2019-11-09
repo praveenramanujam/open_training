@@ -1,8 +1,11 @@
 // what does iostream include do?
 #include <iostream>
 
-#define TEST2
+#define TEST
 
+#ifndef TEST
+#define TEST2
+#endif
 // main always returns int and can take int and char* [] as arguments
 int main(int argc, char* argv[])
 {
