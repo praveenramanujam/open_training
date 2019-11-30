@@ -1,0 +1,4 @@
+/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/rebuild_cache.dir
+/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/edit_cache.dir
+/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/raw_pointers.dir
+/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/smart_pointers.dir

@@ -1,0 +1,4 @@
+COUT./a.out
+COUT1
+COUT2
+COUT3

@@ -1,0 +1,3 @@
+/home/praveen/learning_cpp/day1/understanding_console_logs/build/CMakeFiles/rebuild_cache.dir
+/home/praveen/learning_cpp/day1/understanding_console_logs/build/CMakeFiles/console.dir
+/home/praveen/learning_cpp/day1/understanding_console_logs/build/CMakeFiles/edit_cache.dir
