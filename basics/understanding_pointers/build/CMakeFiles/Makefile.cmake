@@ -43,5 +43,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/raw_pointers.dir/DependInfo.cmake"
+  "CMakeFiles/weak_pointers.dir/DependInfo.cmake"
   "CMakeFiles/smart_pointers.dir/DependInfo.cmake"
   )

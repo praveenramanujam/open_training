@@ -97,6 +97,43 @@ clean: CMakeFiles/raw_pointers.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/weak_pointers.dir
+
+# All Build rule for target.
+CMakeFiles/weak_pointers.dir/all:
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/depend
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles --progress-num=5,6 "Built target weak_pointers"
+.PHONY : CMakeFiles/weak_pointers.dir/all
+
+# Include target in all.
+all: CMakeFiles/weak_pointers.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/weak_pointers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/weak_pointers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/weak_pointers.dir/rule
+
+# Convenience name for target.
+weak_pointers: CMakeFiles/weak_pointers.dir/rule
+
+.PHONY : weak_pointers
+
+# clean rule for target.
+CMakeFiles/weak_pointers.dir/clean:
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/clean
+.PHONY : CMakeFiles/weak_pointers.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/weak_pointers.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/smart_pointers.dir
 
 # All Build rule for target.

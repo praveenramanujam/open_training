@@ -124,6 +124,19 @@ raw_pointers/fast:
 .PHONY : raw_pointers/fast
 
 #=============================================================================
+# Target rules for targets named weak_pointers
+
+# Build rule for target.
+weak_pointers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 weak_pointers
+.PHONY : weak_pointers
+
+# fast build rule for target.
+weak_pointers/fast:
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/build
+.PHONY : weak_pointers/fast
+
+#=============================================================================
 # Target rules for targets named smart_pointers
 
 # Build rule for target.
@@ -190,6 +203,33 @@ smart_pointers.cpp.s:
 	$(MAKE) -f CMakeFiles/smart_pointers.dir/build.make CMakeFiles/smart_pointers.dir/smart_pointers.cpp.s
 .PHONY : smart_pointers.cpp.s
 
+weak_pointers.o: weak_pointers.cpp.o
+
+.PHONY : weak_pointers.o
+
+# target to build an object file
+weak_pointers.cpp.o:
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/weak_pointers.cpp.o
+.PHONY : weak_pointers.cpp.o
+
+weak_pointers.i: weak_pointers.cpp.i
+
+.PHONY : weak_pointers.i
+
+# target to preprocess a source file
+weak_pointers.cpp.i:
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/weak_pointers.cpp.i
+.PHONY : weak_pointers.cpp.i
+
+weak_pointers.s: weak_pointers.cpp.s
+
+.PHONY : weak_pointers.s
+
+# target to generate assembly for a file
+weak_pointers.cpp.s:
+	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/weak_pointers.cpp.s
+.PHONY : weak_pointers.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +239,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... raw_pointers"
+	@echo "... weak_pointers"
 	@echo "... smart_pointers"
 	@echo "... raw_pointers.o"
 	@echo "... raw_pointers.i"
@@ -206,6 +247,9 @@ help:
 	@echo "... smart_pointers.o"
 	@echo "... smart_pointers.i"
 	@echo "... smart_pointers.s"
+	@echo "... weak_pointers.o"
+	@echo "... weak_pointers.i"
+	@echo "... weak_pointers.s"
 .PHONY : help
 
 
