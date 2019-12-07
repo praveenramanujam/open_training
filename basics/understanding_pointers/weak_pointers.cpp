@@ -49,15 +49,6 @@ int main(int argc, char **argv)
     // expected_behavior  that the count of edge n1 should zero if n1 was destroyed???
     std::cout << e->_n1.use_count() << std::endl;
 
-    std::cout << sizeof(int) << std::endl;
-    std::cout << sizeof(long int) << std::endl;
-    std::cout << sizeof(long long int) << std::endl;
-
-    std::cout << sizeof(int8_t) << std::endl;
-    std::cout << sizeof(int16_t) << std::endl;
-    std::cout << sizeof(int32_t) << std::endl;
-    std::cout << sizeof(int64_t) << std::endl;
-
     std::cout << "End of program" << std::endl;
     return 0;
 }
