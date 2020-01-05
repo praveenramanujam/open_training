@@ -22,6 +22,10 @@ Reference: [cme212](https://github.com/cme212/course/blob/master/syllabus.md)
 * Classes and namespaces
 * Abstractions 
 * Templates and STL
+    * Pair
+    * vector
+    * list, forward_list, deque, stack, queue, priority_queue
+    * set, multiset, map, multimap, Unordered_set, unordered_map
 * Inheritance and polymorphism
 * Operator overloading
 * Encapsulation
