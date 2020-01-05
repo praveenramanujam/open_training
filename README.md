@@ -19,7 +19,9 @@
 * Introduction to GDB, valgrind, cachegrind (profiling optimization).
 
 
-## [Algorithms]([http://cs.smith.edu/~istreinu/Teaching/Courses/252.html](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html))
+## Algorithms
+
+Reference: (Course252)([http://cs.smith.edu/~istreinu/Teaching/Courses/252.html](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html))
 
 **Textbook:** Cormen, Leiserson, Rivest and Stein Introduction to Algorithms, 3rd edition. 
 -   Algorithmic  **problems**:
