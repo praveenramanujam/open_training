@@ -69,4 +69,11 @@ Reference: [Course252](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html)
   
   ## Basic Math
   
+- Linear Algebra
+- Analytic Geometry
+- Matrix Decompositions
+- Vector Calculus
+- Probability and Distribution
+- Continuous Optimization
+  
   ## Basic Robotics
