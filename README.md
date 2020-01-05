@@ -68,6 +68,8 @@ Reference: [Course252](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html)
 ## Python
   
 ## Basic Math
+
+Reference: [Basic Math](https://mml-book.github.io/)
   
 * Linear Algebra
 * Analytic Geometry
