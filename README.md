@@ -70,7 +70,7 @@ Reference: [Course252](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html)
 ## Basic Math
 
 Reference: [Basic Math](https://mml-book.github.io/)
-  
+
 * Linear Algebra
 * Analytic Geometry
 * Matrix Decompositions
