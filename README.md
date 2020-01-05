@@ -1,6 +1,9 @@
 # Internal training for Junior Software Engineers
 
 ## C++
+
+Reference: [cme212](https://github.com/cme212/course/blob/master/syllabus.md)
+
 * C++ keywords, identifiers and tokens
 * Pointers, arrays, strings
 * Memory management
@@ -21,7 +24,7 @@
 
 ## Algorithms
 
-Reference: (Course252)([http://cs.smith.edu/~istreinu/Teaching/Courses/252.html](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html))
+Reference: [Course252]([http://cs.smith.edu/~istreinu/Teaching/Courses/252.html](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html))
 
 **Textbook:** Cormen, Leiserson, Rivest and Stein Introduction to Algorithms, 3rd edition. 
 -   Algorithmic  **problems**:
