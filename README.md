@@ -24,7 +24,7 @@ Reference: [cme212](https://github.com/cme212/course/blob/master/syllabus.md)
 
 ## Algorithms
 
-Reference: [Course252]([http://cs.smith.edu/~istreinu/Teaching/Courses/252.html](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html))
+Reference: [Course252](http://cs.smith.edu/~istreinu/Teaching/Courses/252.html)
 
 **Textbook:** Cormen, Leiserson, Rivest and Stein Introduction to Algorithms, 3rd edition. 
 -   Algorithmic  **problems**:
@@ -63,3 +63,10 @@ Reference: [Course252]([http://cs.smith.edu/~istreinu/Teaching/Courses/252.html]
     -   NP-algorithms
     -   NP-hardness and NP-completeness
     -   NP-Reductions
+    
+    
+  ## Python
+  
+  ## Basic Math
+  
+  ## Basic Robotics
