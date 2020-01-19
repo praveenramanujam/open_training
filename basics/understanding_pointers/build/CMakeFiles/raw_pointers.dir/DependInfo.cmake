@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/denny/learning_cpp/basics/understanding_pointers/raw_pointers.cpp" "/home/denny/learning_cpp/basics/understanding_pointers/build/CMakeFiles/raw_pointers.dir/raw_pointers.cpp.o"
+  "/home/praveen/learning_cpp/basics/understanding_pointers/raw_pointers.cpp" "/home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles/raw_pointers.dir/raw_pointers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
