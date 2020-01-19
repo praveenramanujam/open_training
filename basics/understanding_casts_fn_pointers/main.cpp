@@ -11,13 +11,13 @@ public:
         std::cout << "Parent ctor called\n";
     };
 
-    int parent_function(int& j)
+    virtual int parent_function(int j)
     {
         j = j+1;
         return j;
     }
 
-    ~Parent()
+    virtual ~Parent()
     {
         std::cout << "Parent dtor called\n";
     };
@@ -31,13 +31,7 @@ public:
         std::cout << "Child ctor called\n";
     };
 
-/*     int parent_function(int& j)
-    {
-        //Parent::parent_function(j);
-        return j+10;
-    } */
-
-    int child_function(int j)
+    int child_function(int j) const
     {
         return j-1;
     }
@@ -72,7 +66,6 @@ void(*fn)() = function;
 fn();
 /* Denny: please create a generic function which applies a method for each element in a vector*/
 //usage of auto
-
 auto fn1 = function;
 fn1();
 
@@ -92,8 +85,14 @@ std::cout << p[0] << "," << p[1] << std::endl;
 //6. inheritance 
 Child c;
 int val = 5;
-std::cout << c.parent_function(val) << std::endl;
+std::cout << c.child_function(val) << std::endl;
 
+//7. polymorphism
+
+Parent* p1 = new Child();
+p1->parent_function(5);
+//Denny: use dynamic cast to access child class
+//Denny: try without virtual in destructor and see what happens
 
 return 0;
 }
