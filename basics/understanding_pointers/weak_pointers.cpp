@@ -28,8 +28,8 @@ class Edge
             _n1 = n1;
             _n2 = n2;
         }
-        std::shared_ptr<Node> _n1;
-        std::shared_ptr<Node> _n2;
+        std::weak_ptr<Node> _n1;
+        std::weak_ptr<Node> _n2;
 };
 
 int main(int argc, char **argv)
@@ -43,8 +43,9 @@ int main(int argc, char **argv)
     e->addNodes(n1, n2);
 
     // destroy the node
+    // e.reset();
     n1.reset();
-    n2.reset();
+    // n2.reset();
 
     // expected_behavior  that the count of edge n1 should zero if n1 was destroyed???
     std::cout << e->_n1.use_count() << std::endl;
@@ -52,4 +53,5 @@ int main(int argc, char **argv)
     std::cout << "End of program" << std::endl;
     return 0;
 }
+
 

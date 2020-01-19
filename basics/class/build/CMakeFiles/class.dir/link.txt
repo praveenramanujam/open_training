@@ -1,0 +1,1 @@
+/usr/bin/c++  -Werror -Wall  -rdynamic CMakeFiles/class.dir/class.cpp.o  -o class 

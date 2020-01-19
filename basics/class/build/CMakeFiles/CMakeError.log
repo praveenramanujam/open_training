@@ -1,0 +1,58 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: -Werror;-Wall;-Wextra;…
+Id flags:  
+
+The output was:
+1
+c++: error: …: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: -Werror;-Wall;-Wextra;…
+Id flags: -c 
+
+The output was:
+1
+c++: error: …: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: -Werror;-Wall;-Wextra;…
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: …: No such file or directory
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: -Werror;-Wall;-Wextra;…
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: …: No such file or directory
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/denny/learning_cpp/basics/class/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d106/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d106.dir/build.make CMakeFiles/cmTC_3d106.dir/build
+make[1]: Entering directory '/home/denny/learning_cpp/basics/class/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d106.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -Werror -Wall -Wextra …    -o CMakeFiles/cmTC_3d106.dir/testCXXCompiler.cxx.o -c /home/denny/learning_cpp/basics/class/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: …: No such file or directory
+CMakeFiles/cmTC_3d106.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3d106.dir/testCXXCompiler.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3d106.dir/testCXXCompiler.cxx.o] Error 1
+make[1]: Leaving directory '/home/denny/learning_cpp/basics/class/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d106/fast' failed
+make: *** [cmTC_3d106/fast] Error 2
+
+

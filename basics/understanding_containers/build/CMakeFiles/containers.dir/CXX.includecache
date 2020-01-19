@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/denny/learning_cpp/basics/understanding_containers/containers.cpp
+iostream
+-
+utility
+-
+tuple
+-
+list
+-
+stack
+-
+queue
+-
+set
+-
+

@@ -1,0 +1,3 @@
+/home/denny/learning_cpp/basics/class/build/CMakeFiles/rebuild_cache.dir
+/home/denny/learning_cpp/basics/class/build/CMakeFiles/class.dir
+/home/denny/learning_cpp/basics/class/build/CMakeFiles/edit_cache.dir

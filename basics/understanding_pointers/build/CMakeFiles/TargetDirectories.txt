@@ -1,5 +1,5 @@
-/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/rebuild_cache.dir
-/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/edit_cache.dir
-/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/raw_pointers.dir
-/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/weak_pointers.dir
-/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/smart_pointers.dir
+/home/denny/learning_cpp/basics/understanding_pointers/build/CMakeFiles/rebuild_cache.dir
+/home/denny/learning_cpp/basics/understanding_pointers/build/CMakeFiles/edit_cache.dir
+/home/denny/learning_cpp/basics/understanding_pointers/build/CMakeFiles/raw_pointers.dir
+/home/denny/learning_cpp/basics/understanding_pointers/build/CMakeFiles/weak_pointers.dir
+/home/denny/learning_cpp/basics/understanding_pointers/build/CMakeFiles/smart_pointers.dir
