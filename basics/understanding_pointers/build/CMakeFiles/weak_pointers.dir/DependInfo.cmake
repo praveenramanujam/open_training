@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/praveen/learning_cpp/day1/understanding_pointers/weak_pointers.cpp" "/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles/weak_pointers.dir/weak_pointers.cpp.o"
+  "/home/praveen/learning_cpp/basics/understanding_pointers/weak_pointers.cpp" "/home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles/weak_pointers.dir/weak_pointers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/praveen/learning_cpp/day1/understanding_pointers
+CMAKE_SOURCE_DIR = /home/praveen/learning_cpp/basics/understanding_pointers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/praveen/learning_cpp/day1/understanding_pointers/build
+CMAKE_BINARY_DIR = /home/praveen/learning_cpp/basics/understanding_pointers/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/raw_pointers.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/praveen/learning_cpp/day1/understanding_pointers/build
 CMakeFiles/raw_pointers.dir/all:
 	$(MAKE) -f CMakeFiles/raw_pointers.dir/build.make CMakeFiles/raw_pointers.dir/depend
 	$(MAKE) -f CMakeFiles/raw_pointers.dir/build.make CMakeFiles/raw_pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles --progress-num=1,2 "Built target raw_pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles --progress-num=1,2 "Built target raw_pointers"
 .PHONY : CMakeFiles/raw_pointers.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/raw_pointers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/raw_pointers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/raw_pointers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles 0
 .PHONY : CMakeFiles/raw_pointers.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/raw_pointers.dir/clean
 CMakeFiles/weak_pointers.dir/all:
 	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/depend
 	$(MAKE) -f CMakeFiles/weak_pointers.dir/build.make CMakeFiles/weak_pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles --progress-num=5,6 "Built target weak_pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles --progress-num=5,6 "Built target weak_pointers"
 .PHONY : CMakeFiles/weak_pointers.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/weak_pointers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/weak_pointers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/weak_pointers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles 0
 .PHONY : CMakeFiles/weak_pointers.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/weak_pointers.dir/clean
 CMakeFiles/smart_pointers.dir/all:
 	$(MAKE) -f CMakeFiles/smart_pointers.dir/build.make CMakeFiles/smart_pointers.dir/depend
 	$(MAKE) -f CMakeFiles/smart_pointers.dir/build.make CMakeFiles/smart_pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles --progress-num=3,4 "Built target smart_pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles --progress-num=3,4 "Built target smart_pointers"
 .PHONY : CMakeFiles/smart_pointers.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/smart_pointers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/smart_pointers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/smart_pointers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/day1/understanding_pointers/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/praveen/learning_cpp/basics/understanding_pointers/build/CMakeFiles 0
 .PHONY : CMakeFiles/smart_pointers.dir/rule
 
 # Convenience name for target.

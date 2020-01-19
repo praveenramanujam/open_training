@@ -14,20 +14,23 @@ void fn(int* const b) // add const?
 
 int main(int argc, char **argv)
 {
-    /** RAW pointers **/
-    int* p = new int;
-    *p = 100;
-    std::cout << p << std::endl; // prints the memory
-    std::cout << *p << std::endl; //prints the value
-
-
-    /** passing raw pointers to function **/
-    fn(p);
+    int a = 5;
+    int* p;
+    p = &a;
+    const int b = 5;
+    
     std::cout << *p << std::endl;
 
     delete p;
+    p = NULL;
 
+    std::cout << a << std::endl;
     
+
+    int *p = new int;
+    *p = 5;
+
+
 
     return 0;
 }
